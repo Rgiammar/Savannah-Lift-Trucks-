@@ -1,0 +1,106 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Savannah Forklifts</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+            color: #f0f0f0;  
+            background-color: #121212;  
+            scroll-behavior: smooth;  
+        }  
+        a {  
+            color: #ffd600;  
+            text-decoration: none;  
+        }  
+        header {  
+            text-align: center;  
+            padding: 50px;  
+            background: #1f1f1f;  
+        }  
+        .hero {  
+            height: 100vh;  
+            background-image: url('hero-image.jpg');  
+            background-size: cover;  
+            display: flex;  
+            flex-direction: column;  
+            justify-content: center;  
+            align-items: center;  
+            text-align: center;  
+        }  
+        section {  
+            padding: 60px;  
+        }  
+        .services, .fleet, .testimonials, .service-areas {  
+            background: #1a1a1a;  
+            margin: 20px 0;  
+            border-radius: 8px;  
+        }  
+        .form-container {  
+            background: #1f1f1f;  
+            padding: 40px;  
+            border-radius: 8px;  
+        }  
+        footer {  
+            text-align: center;  
+            padding: 20px;  
+            background: #1a1a1a;  
+        }  
+        @media (max-width: 768px) {  
+            section {  
+                padding: 30px;  
+            }  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1>Savannah Forklifts</h1>  
+    </header>  
+    <div class="hero">  
+        <h2>Your Reliable Forklift Solution</h2>  
+        <a href="#services">Explore Our Services</a>  
+    </div>  
+    <section class="services" id="services">  
+        <h3>Our Services</h3>  
+        <ul>  
+            <li>Forklift Sales</li>  
+            <li>Maintenance</li>  
+            <li>Rentals</li>  
+        </ul>  
+    </section>  
+    <section class="fleet" id="fleet">  
+        <h3>Fleet Inventory</h3>  
+        <div>  
+            <img src="forklift1.jpg" alt="Forklift 1" style="width:200px;">  
+            <img src="forklift2.jpg" alt="Forklift 2" style="width:200px;">  
+            <img src="forklift3.jpg" alt="Forklift 3" style="width:200px;">  
+        </div>  
+    </section>  
+    <section class="testimonials" id="testimonials">  
+        <h3>What Our Clients Say</h3>  
+        <blockquote>"Great service and fast response!"</blockquote>  
+        <blockquote>"Highly recommend their forklifts!"</blockquote>  
+    </section>  
+    <section class="service-areas" id="service-areas">  
+        <h3>Service Areas</h3>  
+        <p>We serve across the Savannah area and beyond.</p>  
+    </section>  
+    <section class="form-container">  
+        <h3>Contact Us</h3>  
+        <form action="https://formspree.io/f/xojpevro" method="POST">  
+            <input type="text" name="name" placeholder="Your Name" required><br>  
+            <input type="email" name="email" placeholder="Your Email" required><br>  
+            <textarea name="message" placeholder="Your Message" required></textarea><br>  
+            <button type="submit">Send</button>  
+        </form>  
+    </section>  
+    <footer>  
+        <p>&copy; 2026 Savannah Forklifts | All rights reserved.</p>  
+    </footer>  
+</body>  
+</html>
